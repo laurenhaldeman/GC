@@ -150,7 +150,7 @@ hr.left {
 hr.right {
   margin: 15px 0 15px auto;
 }
-hr.colored {
+hr.tint {
   border-color: #38E6D8;
 }
 @media (min-width: 768px) {
@@ -458,7 +458,7 @@ aside.cta-quote span.quote {
   font-weight: 900;
   text-transform: uppercase;
 }
-.testimonials .testimonials-carousel .item .testimonial-info .testimonial-author hr.colored {
+.testimonials .testimonials-carousel .item .testimonial-info .testimonial-author hr.tint {
   margin: 3px auto;
   max-width: 50px;
 }
@@ -724,7 +724,7 @@ aside.cta-quote span.quote {
     font-size: 20px;
     line-height: 20px;
   }
-  .portfolio-carousel .item hr.colored {
+  .portfolio-carousel .item hr.tint {
     margin: 20px auto 20px 0;
   }
 }

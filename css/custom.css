@@ -15,15 +15,26 @@ img.square {
 
 }
 
+/* Development */
 .instasquare img {
 	width: 100%;
 	height: auto;
 }
 
+#development .instasquare .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    opacity: 0.5;
+}
+
 /*UI Bar*/
 
 #ui-wrapper {
-  font-size: 0.875rem; 
+  font-size: 0.875rem;
   position: fixed !important;
   top: 0;
   width: 100%;
@@ -32,10 +43,10 @@ img.square {
 }
 #ui-wrapper #ui-logo a {
     font-size: 1.6rem; }
-  
+
 #ui-wrapper #ui-search-toggle {
     font-size: 1.3rem; }
-  
+
 #ui-wrapper #ui-search {
     box-shadow: none;
     background-color: #56565A;
@@ -44,9 +55,9 @@ img.square {
 
     @media (min-width: 480px) {
       #ui-wrapper #ui-search {
-        margin-bottom: 0; } 
+        margin-bottom: 0; }
 	}
-	
+
 #ui-wrapper #ui-search #edit-search-terms {
       padding: 3px 0 4px 8px;
       font-family: FranklinGothicMedium !important; }
@@ -69,7 +80,7 @@ img.square {
 #ui-wrapper .container {
     padding-top: 0;
     padding-bottom: 0;
-    position: relative; 
+    position: relative;
 }
 
 #ui-wrapper .form-item-search-terms .form-control {
@@ -92,4 +103,18 @@ img.square {
 	.navbar-fixed-top.navbar-expanded {
     padding-top: 5px;
 	}
+}
+
+/* Profiles */
+
+.about-carousel .item .overlay {
+	background-color: #4a3818;
+}
+
+.about-carousel .item .caption {
+	color: rgba(255, 255, 255, 1);
+}
+
+.about-carousel .owl-controls .owl-prev, .about-carousel .owl-controls .owl-next {
+	background-color: #000 !important;
 }
