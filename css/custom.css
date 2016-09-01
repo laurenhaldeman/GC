@@ -28,7 +28,7 @@ img.square {
     height: 100%;
     width: 100%;
     background-color: #222;
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 /*UI Bar*/
@@ -60,12 +60,12 @@ img.square {
 
 #ui-wrapper #ui-search #edit-search-terms {
       padding: 3px 0 4px 8px;
-      font-family: FranklinGothicMedium !important; }
+      }
 
 #ui-wrapper #ui-search input#edit-submit-search {
       border-radius: 0;
       border: none;
-      font-family: FranklinGothicMedium !important; }
+       }
 
 #ui-wrapper #ui-search .ui-glyph-icon-ui-search {
       font-size: 1.25rem; }
@@ -103,6 +103,86 @@ img.square {
 	.navbar-fixed-top.navbar-expanded {
     padding-top: 5px;
 	}
+}
+
+/* Highlighted */
+
+
+.highlighted .project-details {
+	padding-top: 10%;
+	margin-left: 20px;
+}
+ 
+.highlighted .project-details .tint {
+	margin: 20px auto 20px 0;
+}
+
+ .highlighted .project-name {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+	margin-bottom: 15px;
+	font-family: "Sanchez", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  }
+  
+  .highlighted .project-description {
+    font-size: 30px;
+    line-height: 20px;
+  }
+  
+  .highlighted .box-right {
+	 text-align: left; 
+	  
+  }
+  
+.highlighted {padding: 0px;}
+
+.stats {
+	background-color: #FFC153;
+	min-height: 500px;
+	text-align: center;
+	padding-top: 25%;
+	background-image: url('../img/gc/noisy_grid_grey_blue.png');
+}
+.impact-stat {
+    height: 150px;
+}  
+
+.impact-value {
+    font-size: 150px;
+    line-height: 100px;
+	font-weight: 400;
+	border-top: 4px double #FFCD75;
+	font-family: "Sanchez", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	color: white;
+	margin: 10px;
+}
+
+.impact-superscript {
+    font-size: 50px;
+	font-weight: 400;
+    position: relative;
+    bottom: 40px;
+}
+
+.impact-body {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.impact-cite {
+    font-size: 16px;
+    line-height: 22px;
+    font-style: italic;
+    font-weight: 700;
+    color: #fff;
 }
 
 /* Profiles */
