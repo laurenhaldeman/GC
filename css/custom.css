@@ -107,9 +107,8 @@ img.square {
 
 /* Highlighted */
 
-
+.highlighted {padding-top: 10%;}
 .highlighted .project-details {
-	padding-top: 10%;
 	margin-left: 20px;
 }
  
@@ -137,34 +136,45 @@ img.square {
 	  
   }
   
+  .highlighted .box-left {
+	 text-align: right; 
+	  
+  }
+  
 .highlighted {padding: 0px;}
 
 .stats {
 	background-color: #FFC153;
 	min-height: 500px;
-	text-align: center;
-	padding-top: 25%;
 	background-image: url('../img/gc/noisy_grid_grey_blue.png');
 }
+
+ .stats-header {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+	margin-bottom: 15px;
+	font-family: "Sanchez", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	color: #FFC153;
+  }
+
 .impact-stat {
-    height: 150px;
 }  
 
 .impact-value {
     font-size: 150px;
-    line-height: 100px;
+    line-height: 150px;
 	font-weight: 400;
 	border-top: 4px double #FFCD75;
 	font-family: "Sanchez", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	color: white;
-	margin: 10px;
 }
 
 .impact-superscript {
     font-size: 50px;
 	font-weight: 400;
-    position: relative;
-    bottom: 40px;
 }
 
 .impact-body {
