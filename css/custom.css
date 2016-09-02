@@ -15,6 +15,13 @@ img.square {
 
 }
 
+/* Header */
+
+header.portfolio-carousel {
+	height:auto;
+}
+
+
 /* Development */
 .instasquare img {
 	width: 100%;
@@ -204,7 +211,7 @@ font-size: 150px;
 line-height: 150px;
 font-weight: 400;
 font-family: "Sanchez", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-
+z-index: 1;
 }
 
 .rank:before {
@@ -246,7 +253,12 @@ text-align: left;
 @media (min-width: 992px){
 .portfolio-carousel .item .project-details {
     padding: 0 0 0 20% !important;
+	min-height: 300px;
 }
+
+header.portfolio-carousel .item {
+    padding: 205px 55px 155px;
+
 }
 
 .portfolio-carousel .item .project-description {
@@ -254,3 +266,24 @@ font-size: .8em;
 font-style: italic;	
 }
 
+.portfolio-carousel {
+background-color: transparent;
+}
+
+
+
+/* Footer */
+
+.footer {
+background-color: rgba(51, 51, 51, 1) !important;
+color: white !important;	
+}
+
+.ui-logo {
+    background-position: left top;
+    background-image: url(..\img\gc\DomeWdUnit-W-L.gif);
+    width: 205px;
+    height: 189px;
+    display: block;
+    background-repeat: no-repeat;
+}
