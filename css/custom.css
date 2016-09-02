@@ -106,14 +106,21 @@ img.square {
 }
 
 /* Highlighted */
+.highlighted {padding: 0px;}
+.highlighted .box-right {	  
+}
+.highlighted .box-left {
+}
+ 
+/* News */
 
-.highlighted {padding-top: 10%;}
 .highlighted .project-details {
-	margin-left: 20px;
+	padding: 20% 0 0 20px;
+	text-align: left; 
 }
  
 .highlighted .project-details .tint {
-	margin: 20px auto 20px 0;
+	margin: 0 auto 20px 0;
 }
 
  .highlighted .project-name {
@@ -124,38 +131,30 @@ img.square {
     text-transform: uppercase !important;
 	margin-bottom: 15px;
 	font-family: "Sanchez", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  }
+}
   
-  .highlighted .project-description {
+.highlighted .project-description {
     font-size: 30px;
     line-height: 20px;
-  }
+}
   
-  .highlighted .box-right {
-	 text-align: left; 
-	  
-  }
-  
-  .highlighted .box-left {
-	 text-align: right; 
-	  
-  }
-  
-.highlighted {padding: 0px;}
+
+/* Stats */
 
 .stats {
 	background-color: #FFC153;
 	min-height: 500px;
 	background-image: url('../img/gc/noisy_grid_grey_blue.png');
+	padding: 15% 20px 0 0;
+	text-align: center; 
 }
 
- .stats-header {
+.stats-header {
     display: block;
     font-size: 50px;
     line-height: 50px;
     font-weight: 400 !important;
     text-transform: uppercase !important;
-	margin-bottom: 15px;
 	font-family: "Sanchez", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	color: #FFC153;
   }
@@ -167,7 +166,6 @@ img.square {
     font-size: 150px;
     line-height: 150px;
 	font-weight: 400;
-	border-top: 4px double #FFCD75;
 	font-family: "Sanchez", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	color: white;
 }
@@ -208,3 +206,27 @@ img.square {
 .about-carousel .owl-controls .owl-prev, .about-carousel .owl-controls .owl-next {
 	background-color: #000 !important;
 }
+
+/* Quick Links Bar */
+
+#quick-links {}
+
+#quick-links ul {
+list-style-type: none;
+text-align: left;
+	
+}
+
+/* Slider Hero */
+
+@media (min-width: 992px){
+.portfolio-carousel .item .project-details {
+    padding: 0 0 0 20% !important;
+}
+}
+
+.portfolio-carousel .item .project-description {
+font-size: .8em;
+font-style: italic;	
+}
+
