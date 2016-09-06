@@ -15,6 +15,10 @@ img.square {
 
 }
 
+span.quote {
+	font-size: 25px !important;	
+}
+
 /* Header */
 
 header.portfolio-carousel {
@@ -22,21 +26,7 @@ header.portfolio-carousel {
 }
 
 
-/* Development */
-.instasquare img {
-	width: 100%;
-	height: auto;
-}
 
-#development .instasquare .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #222;
-    opacity: 0.2;
-}
 
 /*UI Bar*/
 
@@ -112,6 +102,47 @@ header.portfolio-carousel {
 	}
 }
 
+/* Development */
+.instasquare img {
+	width: 100%;
+	height: auto;
+
+}
+
+#development .instasquare .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+	background-color: #4a3818;
+	opacity: 0.9;
+}
+
+#development a:hover .overlay {
+opacity: 0.1;
+}
+
+.instasquare .caption {
+color: #fff;
+border-radius: 150px;
+width: 200px;
+height: 200px;
+border: 2px #fff solid;
+}
+
+#development a:hover .caption {
+	color: #333;
+	border: 2px #FFC153 solid;
+	background: #FFC153;
+}
+
+.instasquare .caption .fa {
+margin-top: 10px;
+font-size: 5em;
+}
+
+
 /* Highlighted */
 .highlighted {padding: 0px;}
 .highlighted .box-right {	  
@@ -125,6 +156,12 @@ header.portfolio-carousel {
 	padding: 20% 0 0 20px;
 	text-align: left; 
 }
+
+.highlighted .news {
+background-color: #FFC153;
+height: 500px;
+}
+ 
  
 .highlighted .project-details .tint {
 	margin: 0 auto 20px 0;
@@ -150,7 +187,7 @@ header.portfolio-carousel {
 
 .stats {
 	background-color: #FFC153;
-	min-height: 500px;
+	height: 500px;
 	background-image: url('../img/gc/noisy_grid_grey_blue.png');
 	padding: 15% 20px 0 0;
 	text-align: center; 
@@ -279,6 +316,15 @@ background-color: rgba(51, 51, 51, 1) !important;
 color: white !important;	
 }
 
+.footer ul li {
+list-style-type: none;
+}
+.footer ul  {
+-webkit-padding-start: 0px;
+}
+
+.footer hr {margin: 20px 0;}
+
 .ui-logo {
     background-position: left top;
     background-image: url(..\img\gc\DomeWdUnit-W-L.gif);
@@ -287,3 +333,10 @@ color: white !important;
     display: block;
     background-repeat: no-repeat;
 }
+
+
+
+
+
+
+
