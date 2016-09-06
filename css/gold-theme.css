@@ -190,7 +190,7 @@ hr.tint {
 .navbar-default,
 .navbar-inverse {
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 0px solid rgba(255, 255, 255, 0.1);
 }
 .navbar-default .navbar-toggle,
 .navbar-inverse .navbar-toggle {
@@ -1043,7 +1043,6 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1;
 }
 footer.footer {
-  color: rgba(255, 255, 255, 0.7);
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
