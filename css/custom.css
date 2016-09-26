@@ -8,6 +8,9 @@ overlay-brown: #4a3818;
 
 /* HTML Reset */
 
+h1.smaller {font-size: 43px;}
+h2.smaller {font-size: 30px;}
+
 .no-bottom {
 padding-bottom: 0px;
 }
@@ -161,7 +164,7 @@ height: 0px;
 
 /*Nav Bar */
 
-.navbar-fixed-top {
+.navbar {
     top: 40px;
 }
 
@@ -170,6 +173,24 @@ height: 0px;
     padding-top: 0px;
 	}
 }
+
+/* Sidebar Flyout */
+
+#sidebar .list-group {
+	
+}
+
+/* Bars */
+
+.primary-bar {
+width: 100%;
+background:	#FFC153;
+padding: 20px 0;
+}
+
+/* Content */
+
+.content {padding: 20px 0;}
 
 /* Development */
 .instasquare img {
