@@ -2,13 +2,7 @@
  * Off Canvas
  * --------------------------------------------------
  */
-.content-wrapper {
-overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
 
-.content-wrapper::-webkit-scrollbar { 
-    display: none; 
-}
 
 .row-offcanvas {
     position: relative;
@@ -23,7 +17,7 @@ overflow-x: hidden; /* Prevent scroll on narrow devices */
   }
   
    .sidebar-offcanvas {
-   background: #101010;
+   background: #171510;
    height: 100%;
    }
    
@@ -33,7 +27,21 @@ overflow-x: hidden; /* Prevent scroll on narrow devices */
 	background: transparent;
 	color: white;
 	position: fixed;
-	top: 0;
+	top: 100px;
+	width: 100%;
+}
+
+#sidebar .list-group li {
+list-style-type: none;
+padding: 0 0 0 10px;	
+}
+
+#sidebar .list-group li a {
+color: white;
+}
+
+.front #sidebar .list-group {
+	top: 100px;
 }
 
 #sidebar .list-group-item:first-child {
