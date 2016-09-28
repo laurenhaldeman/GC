@@ -43,37 +43,37 @@
 
 <!-- NOTE: Use the .modern or .vintage class to the body element below to see different font pairings! -->
 
-<body id="page-top" class="vintage uiowa-bar-dark">
-<div class="row-offcanvas row-offcanvas-right">
+<body id="page-top" class="vintage uiowa-bar-dark not-front">
+
 	<!-- UI Leader -->
-<div id="ui-wrapper" class="uiowaBar-processed">
-	<div class="container l-container">
-		<div id="ui-logo"><a href="http://www.uiowa.edu" title="The University of Iowa"><i class="ui-glyph-icon-domewordsingle" aria-hidden="true"></i>
-			<span class="element-invisible">The University of Iowa</span></a>
-		</div>
-			<a href="#" title="Open search bar" id="ui-search-toggle" class="is-inactive" aria-hidden="true">
-			<i class="ui-glyph-icon-ui-search" aria-hidden="true"></i>
-			<span class="element-invisible">Toggle Search</span></a>
-		<div id="ui-search" class="animated is-hidden" aria-hidden="false">
-				<form class="search-form search-google-appliance-search-form" action="https://tippie.uiowa.edu/google-search" method="post" id="uiowa-bar-search-form" accept-charset="UTF-8" role="form">
-					<div><i class="ui-glyph-icon-ui-search" aria-hidden="true"></i>
-						<div class="form-item form-type-textfield form-item-search-terms form-group">
-							<label for="edit-search-terms">Search Terms </label>
-							<input placeholder="Search this site" class="form-control form-text" type="text" id="edit-search-terms" name="search-terms" value="" size="15" maxlength="256">
+	<div id="ui-wrapper" class="uiowaBar-processed">
+		<div class="container l-container">
+			<div id="ui-logo"><a href="http://www.uiowa.edu" title="The University of Iowa"><i class="ui-glyph-icon-domewordsingle" aria-hidden="true"></i>
+				<span class="element-invisible">The University of Iowa</span></a>
+			</div>
+				<a href="#" title="Open search bar" id="ui-search-toggle" class="is-inactive" aria-hidden="true">
+				<i class="ui-glyph-icon-ui-search" aria-hidden="true"></i>
+				<span class="element-invisible">Toggle Search</span></a>
+			<div id="ui-search" class="animated is-hidden" aria-hidden="false">
+					<form class="search-form search-google-appliance-search-form" action="https://tippie.uiowa.edu/google-search" method="post" id="uiowa-bar-search-form" accept-charset="UTF-8" role="form">
+						<div><i class="ui-glyph-icon-ui-search" aria-hidden="true"></i>
+							<div class="form-item form-type-textfield form-item-search-terms form-group">
+								<label for="edit-search-terms">Search Terms </label>
+								<input placeholder="Search this site" class="form-control form-text" type="text" id="edit-search-terms" name="search-terms" value="" size="15" maxlength="256">
+							</div>
+							<button type="submit" id="edit-submit-search" name="btnG" value="" class="form-submit btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
 						</div>
-						<button type="submit" id="edit-submit-search" name="btnG" value="" class="form-submit btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
-					</div>
-				</form>
+					</form>
+			</div>
 		</div>
 	</div>
-</div>
 
     <!-- Navigation -->
     <!-- NOTE: .navbar-default and .navbar-inverse are both supported with this theme. -->
 
-    <nav class="navbar navbar-inverse navbar-collapse collapse">
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-collapse collapse">
 	
-        <div class="container">
+        <div class="container-nav">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -84,7 +84,8 @@
 					Graduate College
                 </a>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
@@ -102,12 +103,11 @@
                         <a class="page-scroll" href="">Contact</a>
                     </li>
 					<li>
-						
+						<button type="button" class="btn btn-primary btn-xs pull-right sidebar-flyout" data-toggle="offcanvas">Quick Links</button>	
 					</li>
                 </ul>
             </div>
-        </div>
-	<button type="button" class="btn btn-primary btn-xs pull-right" data-toggle="offcanvas">Quick Links</button>
+		</div>
     </nav>
 	
 
@@ -159,6 +159,9 @@
     <!-- Header -->
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="content-wrapper">
+<div class="row-offcanvas row-offcanvas-right">
+	
     <div class="jumbotron">
       <div class="container">
         <h1 class="smaller">Thesis/Dissertation Submission</h1>
@@ -219,7 +222,7 @@ A dissertation for a professional doctorate or a master's thesis represents adva
 </div>
 
 <!-- Side Nav -->
-	    <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+	    <div class="sidebar-offcanvas" id="sidebar">
           <div class="list-group">
             <a href="#" class="list-group-item active">Link</a>
             <a href="#" class="list-group-item">Link</a>
@@ -234,7 +237,7 @@ A dissertation for a professional doctorate or a master's thesis represents adva
           </div>
         </div>
 <!-- /Side Nav -->
-</div>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -292,6 +295,8 @@ A dissertation for a professional doctorate or a master's thesis represents adva
             </div>
         </div>
     </footer>
+</div>
+</div>
 
     <!-- Portfolio Modals -->
     <!-- Example Modal 1: Corresponds with Portfolio Carousel Item 1 -->

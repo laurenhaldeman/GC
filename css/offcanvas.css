@@ -1,28 +1,53 @@
 /*
- * Style tweaks
- * --------------------------------------------------
- */
-html,
-body {
-  overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
-body {
-}
-footer {
-  padding: 30px 0;
-}
-
-/*
  * Off Canvas
  * --------------------------------------------------
  */
+.content-wrapper {
+overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+.content-wrapper::-webkit-scrollbar { 
+    display: none; 
+}
 
   .row-offcanvas {
     position: relative;
     -webkit-transition: all .25s ease-out;
          -o-transition: all .25s ease-out;
             transition: all .25s ease-out;
+	top: 90px;
+	
+	
   }
+  
+   .sidebar-offcanvas {
+   background: #101010;
+   height: 100%;
+   }
+   
+   /* Sidebar Flyout */
+
+#sidebar .list-group {
+	background: transparent;
+	color: white;
+}
+
+#sidebar .list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#sidebar .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 0px 
+}
+
+#sidebar a.list-group-item, button.list-group-item {
+    color: white;
+}
 
   .row-offcanvas-right {
     right: 0;
@@ -35,11 +60,13 @@ footer {
     .row-offcanvas-right
   .sidebar-offcanvas {
     right: -25%; /* 6 columns */
+
   }
 
   .row-offcanvas-left
   .sidebar-offcanvas {
     left: -25%; /* 6 columns */
+
   }
 
   .row-offcanvas-right.active {

@@ -42,7 +42,45 @@ header.portfolio-carousel {
 	height:auto;
 }
 
+.container-nav {
+	margin: 0 0 0 4%;
+}
 
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+.navbar {
+border-radius: 0px;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    top: 40px;
+}
+
+@media (min-width: 768px) {
+	.navbar-fixed-top.navbar-expanded {
+    padding-top: 0px;
+	}
+}
+
+@media (min-width: 768px){
+.not-front .navbar-default.navbar-expanded, .not-front .navbar-inverse.navbar-expanded {
+    background: #101010;
+}
+
+.not-front .navbar-fixed-top.navbar-expanded {
+    padding: 0px;
+}
+
+.not-front .navbar-fixed-top {
+    padding: 0; 
+}
+
+}
 
 
 /*UI Bar*/
@@ -53,7 +91,7 @@ top: 0;
 width: 100%;
 height: 40px;
 padding: 0;
-z-index: 999;
+z-index: 2;
 }
 
 .uiowa-bar-dark #ui-wrapper {
@@ -97,7 +135,7 @@ border: none;
 }
 
 .uiowa-bar-dark #ui-search #edit-submit-search {
-background: #FFC153;
+background: #999;
 color: black;
 font-weight: 700;
 font-family: Sanchez, arial, sans-serif !important;
@@ -161,24 +199,6 @@ width: 0px;
 height: 0px;
 }
 
-
-/*Nav Bar */
-
-.navbar {
-    top: 40px;
-}
-
-@media (min-width: 768px) {
-	.navbar-fixed-top.navbar-expanded {
-    padding-top: 0px;
-	}
-}
-
-/* Sidebar Flyout */
-
-#sidebar .list-group {
-	
-}
 
 /* Bars */
 
