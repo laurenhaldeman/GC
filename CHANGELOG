@@ -1,6 +1,19 @@
+*** 
+
 10/03/16 -- 
 Forked Starting Node Timestamp: 1475255808
 Forked highest nid: 1573
+
+4.24
+
+js working, but carousel broken
+
+4.38
+
+fixed missing css file to carousel. theme ready for templating :)
+
+***
+
 
 
 
